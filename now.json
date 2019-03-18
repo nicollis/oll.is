@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "project": "oll.is",
+  "alias": ["api.oll.is"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/redirect.py"
+    }
+  ],
+  "builds": [{
+    "src": "*.py", "use": "@now/python"
+  }]
+}
