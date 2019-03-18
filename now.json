@@ -1,7 +1,7 @@
 {
   "version": 2,
   "project": "oll.is",
-  "alias": ["api.oll.is"],
+  "alias": ["oll.is", "api.oll.is"],
   "routes": [
     {
       "src": "/(.*)",
