@@ -3,12 +3,18 @@
   "project": "oll.is",
   "alias": ["oll.is", "api.oll.is"],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/redirect.py"
-    }
+    { "src": "/notes", "dest": "/notes/" },
+    { "src": "/notes/(.*)", "dest": "/notes/$1.html" },
+    { "src": "/(.*)", "dest": "/redirect.py" }
   ],
-  "builds": [{
-    "src": "*.py", "use": "@now/python"
-  }]
+  "builds": [
+    { "src": "*.py", "use": "@now/python" },
+    { "src": "notes/*.md",
+      "use": "@now/md",
+      "config": { 
+        "title": "Notes",
+        "css": "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      } 
+    }
+  ]
 }
