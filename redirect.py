@@ -2,6 +2,7 @@ from http.server import BaseHTTPRequestHandler
 
 urls = {
   'indyrb': '/notes/meetups',
+  'deconstruct-cfp': 'https://drive.google.com/uc?id=1-vifClWz4WA9ceJeBVmFLM994qfmelCg&export=download',
   'default': 'https://nic.oll.is'
 }
 
