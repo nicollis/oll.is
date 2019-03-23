@@ -5,9 +5,11 @@
   "routes": [
     { "src": "/notes", "dest": "/notes/" },
     { "src": "/notes/(.*)", "dest": "/notes/$1.html" },
+    { "src": "/downloads/(.*)", "dest": "/downloads/$1.html" },
     { "src": "/(.*)", "dest": "/redirect.py" }
   ],
   "builds": [
+    { "src": "downloads/*", "use": "@now/static" },
     { "src": "*.py", "use": "@now/python" },
     { "src": "notes/*.md",
       "use": "@now/md",
