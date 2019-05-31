@@ -15,7 +15,7 @@ Feel free to reach out to me in you have any questions
 - [Web Accessiblity Slides](https://nicollis.github.io/web-accessibility-slides/)
 
 ## Video
- - [Coming Soon](#)
+ - [Indy.rb Youtube](https://www.youtube.com/watch?v=mElNXIjLdDw)
 
 ## Articles
 - [Domino's using tech to beat Pizza Hut](https://www.sj-r.com/news/20180310/how-dominos-used-technology-to-beat-rival-pizza-hut)
