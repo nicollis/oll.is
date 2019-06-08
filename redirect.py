@@ -4,6 +4,7 @@ urls = {
   'indyrb': '/notes/meetups',
   'deconstruct-cfp': 'https://drive.google.com/uc?id=1-vifClWz4WA9ceJeBVmFLM994qfmelCg&export=download',
   'leanor': 'https://www.icloud.com/sharedalbum/#B0mJtdOXmtwgmEY',
+  'newsletter' : 'https://tinyletter.com/ML-Roundup',
   'default': 'https://nic.oll.is'
 }
 
