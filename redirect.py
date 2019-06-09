@@ -5,6 +5,7 @@ urls = {
   'deconstruct-cfp': 'https://drive.google.com/uc?id=1-vifClWz4WA9ceJeBVmFLM994qfmelCg&export=download',
   'leanor': 'https://www.icloud.com/sharedalbum/#B0mJtdOXmtwgmEY',
   'newsletter' : 'https://tinyletter.com/ML-Roundup',
+  'newsletter-submission': 'https://docs.google.com/forms/d/e/1FAIpQLSfCbsca4KkDcUb5AA2ko7aX5xWHYbmOg8QpJaNZQsUTUVLz6A/viewform?usp=sf_link',
   'default': 'https://nic.oll.is'
 }
 
