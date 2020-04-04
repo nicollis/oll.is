@@ -6,6 +6,8 @@ urls = {
   'leanor': 'https://www.icloud.com/sharedalbum/#B0mJtdOXmtwgmEY',
   'newsletter' : 'https://tinyletter.com/ML-Roundup',
   'newsletter-submission': 'https://docs.google.com/forms/d/e/1FAIpQLSfCbsca4KkDcUb5AA2ko7aX5xWHYbmOg8QpJaNZQsUTUVLz6A/viewform?usp=sf_link',
+  'meeting': 'https://zoom.us/j/8912004048?pwd=SUZGL0pUS01wa3d4WmhCZlNEY0x6QT09',
+  'meet': 'https://zoom.us/j/8912004048?pwd=SUZGL0pUS01wa3d4WmhCZlNEY0x6QT09',
   'default': 'https://nic.oll.is'
 }
 
